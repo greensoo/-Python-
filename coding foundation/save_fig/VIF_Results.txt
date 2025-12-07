@@ -1,0 +1,10 @@
+         feature       VIF
+           const 35.527488
+             age  1.016822
+             bmi  1.106630
+        children  1.004011
+        sex_male  1.008900
+      smoker_yes  1.012074
+region_northwest  1.518823
+region_southeast  1.652230
+region_southwest  1.529411

@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            log_charges   R-squared:                       0.784
+Model:                            OLS   Adj. R-squared:                  0.782
+Method:                 Least Squares   F-statistic:                     379.8
+Date:                Sun, 07 Dec 2025   Prob (F-statistic):               0.00
+Time:                        15:34:08   Log-Likelihood:                -762.05
+No. Observations:                1338   AIC:                             1544.
+Df Residuals:                    1328   BIC:                             1596.
+Df Model:                           9                                         
+Covariance Type:                  HC3                                         
+============================================================================================
+                               coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+Intercept                    7.3374      0.077     95.379      0.000       7.187       7.488
+sex_male[T.True]            -0.0871      0.024     -3.666      0.000      -0.134      -0.041
+smoker_yes[T.True]           0.1564      0.134      1.166      0.243      -0.106       0.419
+region_northwest[T.True]    -0.0711      0.034     -2.081      0.037      -0.138      -0.004
+region_southeast[T.True]    -0.1627      0.036     -4.547      0.000      -0.233      -0.093
+region_southwest[T.True]    -0.1375      0.033     -4.117      0.000      -0.203      -0.072
+age                          0.0348      0.001     35.526      0.000       0.033       0.037
+bmi                          0.0034      0.002      1.540      0.123      -0.001       0.008
+bmi:smoker_yes[T.True]       0.0456      0.004     10.386      0.000       0.037       0.054
+children                     0.1031      0.009     11.676      0.000       0.086       0.120
+==============================================================================
+Omnibus:                      520.045   Durbin-Watson:                   2.036
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2150.321
+Skew:                           1.846   Prob(JB):                         0.00
+Kurtosis:                       7.994   Cond. No.                         663.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
