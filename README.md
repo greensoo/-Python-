@@ -5,7 +5,7 @@ Insurance-Project/
 ├── README.md              # 项目说明文档
 ├── report.pdf             # report PDF格式  
 ├── report.tex             # report TEX格式
-
+├── requirements.txt       # 依赖库列表
 └── save_fig/              # [运行后生成] 存放所有分析图表和统计摘要报告
     ├── OLS_Final_Model_Summary.txt
     ├── RF_Feature_Importance.png  
